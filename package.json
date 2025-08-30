@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-lobby-server",
+  "version": "1.0.0",
+  "description": "Ein einfacher WebSocket Server für Lobby-Hosting und Verbindungen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "lobby",
+    "signaling",
+    "websocket",
+    "game"
+  ],
+  "author": "Nico",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
